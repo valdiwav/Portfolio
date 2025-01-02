@@ -1,11 +1,42 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro'
+import  common  from '../locales/es/common.json' // Importa el archivo common directamente
+import Hero from './Hero.astro'
+import Experience from './Experience.astro'
+import Skills from './Skills.astro'
+import Projects from './Projects.astro'
+import About from './About.astro'
+import Contact from './Contact.astro'
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Extrae las traducciones desde el archivo common
+const { title, description } = common
+
+const options = {
+  title,
+  description,
+}
 ---
 
-<Layout>
-	<Welcome />
+<Layout options={options}>
+
+  <main>
+    <Hero />
+	<Experience />
+	<Skills />
+	<Projects />
+	<About />
+	<Contact />
+  </main>
 </Layout>
+
+<style>
+  main {
+    max-width: 1054px;
+    margin-inline: auto;
+    padding-inline: var(--mobile-inline-padding);
+
+    @media (width >= 1200px) {
+      padding-inline: 0;
+    }
+  }
+</style>

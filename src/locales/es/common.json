@@ -1,0 +1,138 @@
+{
+  "title": "Ingeniero de Ejecución Informática - Álvaro Valdivia",
+  "description": "Desarrollador con experiencia en aplicaciones móviles, inteligencia artificial y backend. Apasionado por aprender y crear soluciones innovadoras.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Habilidades",
+      "href": "#habilidades"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola, soy Álvaro!",
+    "job_title": "<strong>Ingeniero de Ejecución Informática</strong> de Santiago, Chile.",
+    "description": "Desarrollador con experiencia en aplicaciones móviles, inteligencia artificial y backend. Apasionado por aprender y crear soluciones innovadoras.",
+    "cta": "Contacto",
+    "cv": "Descarga mi CV"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["BELAT", "PUCV", "Fuerza Aérea de Chile"],
+      "jobs_description": [
+        {
+          "title": "Práctica Profesional en BELAT",
+          "time": ["Dic 2023", "Feb 2024"],
+          "description": "Gestioné proyectos utilizando Odoo, modelé procesos con BPMN para optimizar flujos de trabajo, y apoyé en el desarrollo backend integrando JavaScript, Prisma y PostgreSQL. Además, capacité a equipos en la implementación de soluciones tecnológicas.",
+          "list": ["Gestión de proyectos con Odoo", "Modelado de procesos con BPMN", "Desarrollo backend (JavaScript, Prisma, PostgreSQL)", "Capacitación a equipos técnicos y comerciales"]
+        },
+        {
+          "title": "Ayudante de Estructura de Datos",
+          "time": ["Mar 2022", "jul 2024"],
+          "description": "Como ayudante de la asignatura, mi labor consistía en la resolución de dudas y problemas por parte de los estudiantes, a través de la explicación clara de conceptos, la realización de ejercicios prácticos, las evaluaciones y su retroalimentación.",
+          "list": ["Resolución de dudas", "Explicación de conceptos", "Corrección de ejercicios", "Retroalimentación", "C"]
+        },
+        {
+          "title": "Técnico de Electricidad y Electrónica de Aeronaves",
+          "time": ["Ene 2019", "Oct 2020"],
+          "description": "Diagnostiqué y resolví fallas electrónicas en helicópteros, garantizando su operatividad. Trabajé en un entorno de alta presión, desarrollando habilidades en resolución de problemas, trabajo en equipo y gestión de proyectos técnicos.",
+          "list": ["Diagnóstico y reparación electrónica", "Trabajo en equipo", "Gestión de proyectos técnicos"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "PerfectRep",
+        "description": "PerfectRep es un proyecto de aplicación móvil desarrollado como solución tecnológica para analizar y corregir en tiempo real la técnica en ejercicios de hipertrofia muscular. Utiliza inteligencia artificial y visión por computadora para identificar movimientos erróneos y ofrecer retroalimentación inmediata. La app está diseñada para ejercicios como sentadillas, peso muerto, press de hombros y curl de bíceps, permitiendo su uso en diversos entornos, desde gimnasios hasta entrenamientos en casa.",
+        "image": "/src/images/projects/perfectrepapp.png",
+        "techs": ["AndroidStudio", "Kotlin", "Firebase", "TensorFlow","Python"],
+        "code": "Código",
+        "preview": "Vista previa",
+        "githubCode": "https://github.com/valdiwav/PerferctRep.git"
+      },
+      {
+        "title": "Juego Educativo en Game Maker",
+        "description": "Cyberstyle: SYNAPSE (CSS) es un videojuego educativo diseñado para comparar la eficacia de dos sistemas de retroalimentación, KCR y MTF, en el aprendizaje. Enfocado en conceptos de CSS, permitió medir no solo la retención del conocimiento, sino también dimensiones clave como motivación, interés y percepción de utilidad, ofreciendo datos valiosos para el análisis educativo.",
+        "image": "/src/images/projects/cyberstyle.png",
+        "techs": ["CSS", "HTML", "GameMaker"],
+        "code": "Código",
+        "preview": "Vista previa",
+        "githubCode": "https://github.com/valdiwav/CyberStyle.git"
+      },
+      {
+        "title": "PC Forge",
+        "description": "PC Forge es una plataforma web educativa que guía a los usuarios en el proceso de armar su propio PC. A través de pasos interactivos, los usuarios aprenden sobre componentes, compatibilidad y ensamblaje, guardando su progreso a medida que avanzan.",
+        "image": "/src/images/projects/pcforge1.png",
+        "techs": [
+          "React",
+          "Sass",
+          "TypeScript",
+          "MySQL",
+          "Rapid"
+        ],
+        "code": "Código",
+        "preview": "Vista previa",
+        "githubCode": "https://github.com/valdiwav/PcForgeReact.git"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "technologies": [
+      { "name": "HTML", "icon": "techs/html" },
+      { "name": "CSS", "icon": "techs/css" },
+      { "name": "JavaScript", "icon": "techs/javascript" },
+      { "name": "React", "icon": "techs/react" },
+      { "name": "Kotlin", "icon": "techs/kotlin" },
+      { "name": "Firebase", "icon": "techs/firebase" },
+      { "name": "TensorFlow", "icon": "techs/tensorflow" },
+      { "name": "Astro", "icon": "techs/astro" },
+      { "name": "MySQL", "icon": "techs/mysql" },
+      { "name": "Python", "icon": "techs/python" },
+      { "name": "Sass", "icon": "techs/sass" },
+      { "name": "Rapid", "icon": "techs/rapid" },
+      { "name": "Tailwind", "icon": "techs/tailwindcss" },
+      { "name": "AndroidStudio", "icon": "techs/androidstudio" },
+      { "name": "GameMaker", "icon": "techs/gamemaker" },
+      { "name": "PostgreSQL", "icon": "techs/postgressql" },
+      { "name": "Node.js", "icon": "techs/node.js" },
+      { "name": "Git", "icon": "techs/git" },
+      { "name": "Figma", "icon": "techs/figma" },
+      { "name": "Flutter", "icon": "techs/flutter" }
+    ]
+  },
+
+
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Desarrollador de Soluciones Tecnológicas con Visión y Creatividad",
+    "description": "Soy Ingeniero en Ejecución Informática, con un enfoque en el desarrollo de aplicaciones móviles, integración de inteligencia artificial y optimización de procesos. Mi experiencia abarca desde el diseño y desarrollo de soluciones tecnológicas hasta el modelado de procesos que mejoran la eficiencia y productividad. Siempre en busca de nuevas formas de enfrentar desafíos y aportar valor a través de la tecnología."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Si estás interesado en trabajar conmigo, no dudes en contactarme a través de"
+  },
+  "footer": {
+    "developer": "ValdiDev",
+    "copy": "Todos los derechos reservados"
+  }
+}

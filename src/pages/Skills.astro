@@ -1,0 +1,74 @@
+---
+import { Icon } from 'astro-icon/components'
+import common from '../locales/es/common.json' // Importamos el archivo common directamente
+
+// Extraemos las traducciones necesarias desde common
+const skillsData = common.skills || {}
+const title = skillsData.title || 'Habilidades'
+const technologies = skillsData.technologies || []
+---
+
+<section id={title.toLowerCase()} class="skills">
+  <h2>{title}</h2>
+  <div class="skills-row">
+    {
+      technologies.map(({ name, icon }) => (
+        <div class="skill" title={name}>
+          <Icon name={icon} size={48} />
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .skills {
+    padding-bottom: 120px;
+    text-align: center;
+
+    & h2 {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      margin-bottom: 48px;
+
+      @media (width >= 768px) {
+        justify-content: start;
+
+        &::before,
+        &::after {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 1px;
+          background-color: var(--border-color);
+        }
+      }
+    }
+  }
+
+  .skills-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-secondary-color);
+    border-radius: 50%;
+    padding: 12px;
+    transition: transform 0.2s;
+    margin-bottom: 0px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+</style>

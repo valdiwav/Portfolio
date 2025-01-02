@@ -1,0 +1,140 @@
+html {
+  .astro,
+  .html {
+    background-color: #7f4932;
+    transition: var(--transition-bg);
+  }
+
+  .css {
+    background-color: #324b7f;
+    transition: var(--transition-bg);
+  }
+
+  .tailwindcss,
+  .typescript,
+  .react{
+    background-color: #32547f;
+    transition: var(--transition-bg);
+  }
+
+  .tensorflow {
+    background-color: #7f4932; /* Naranja más oscuro para TensorFlow */
+    color: #fff; /* Texto en blanco */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .sass {
+    background-color: #602957;
+    transition: var(--transition-bg);
+  }
+
+  .open-props {
+    background-color: #3a4367;
+    transition: var(--transition-bg);
+  }
+
+  .javascript {
+    background-color: #665e24;
+    transition: var(--transition-bg);
+  }
+
+  .php{
+    background-color: #616161;
+    transition: var(--transition-bg);
+  }
+
+  .wordpress{
+    background-color: #3a4367;
+    transition: var(--transition-bg);
+  }
+
+  .kotlin{
+    background-color: #004a80; /* Azul marino para WordPress y Kotlin */
+    color: #fff; /* Texto en blanco */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .firebase {
+    background-color: #7f6932;
+    transition: var(--transition-bg);
+  }
+
+  .pwa{
+    background-color: #c4c4c4;
+    color: #000;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .python {
+    background-color: #305c82; /* Azul oscuro más saturado para Python */
+    color: #fff; /* Texto en blanco */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .androidstudio {
+    background-color: #2a7c5f; /* Verde bosque para Android Studio */
+    color: #fff; /* Texto en blanco */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .gamemaker{
+    background-color: #c4c4c4;
+    color: #000;
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  .rapid {
+    background-color: #2c3e50; /* Gris oscuro/azul oscuro */
+    color: #ecf0f1; /* Color claro para el texto */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+  /* Estilo para MySQL */
+  .mysql {
+    background-color: #3498db; /* Azul característico de MySQL */
+    color: #ffffff; /* Color claro para el texto */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+
+}
+
+html.dark {
+  .astro,
+  .html {
+    background-color: #ffbc96;
+  }
+
+  .css {
+    background-color: #1c80bf5e;
+  }
+
+  .tailwindcss,
+  .typescript,
+  .react {
+    background-color: #bddaff;
+  }
+
+  .sass {
+    background-color: color-mix(in srgb, #602957, #fff 70%);
+  }
+
+  .open-props {
+    background-color: #c1cbf1;
+  }
+
+  .javascript {
+    background-color: #e2da9a;
+  }
+
+  .php {
+    background-color: #cacaca;
+  }
+
+  .wordpress {
+    background-color: #b1b8d1;
+  }
+
+  .firebase {
+    background-color: #ffdd88;
+  }
+}

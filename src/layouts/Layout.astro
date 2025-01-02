@@ -1,22 +1,127 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import 'sanitize.css';
+import 'sanitize.css/assets.css';
+import 'sanitize.css/typography.css';
+import '../styles/global.css';
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+interface Options {
+  title: string;
+  description: string;
+  metaRobots?: string;
+}
+
+interface Props {
+  options: Options;
+}
+
+const { options } = Astro.props;
+const { title, description, metaRobots } = options;
+---
+
+<!doctype html>
+<html class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{title}</title>
+
+    <slot name="preconnect" />
+    <slot name="async-script" />
+    <slot name="critical-css" />
+
+    <style is:inline>
+      :root {
+        --scrollbar: #e5e5e5;
+        --scrollbar-thumb: #c0c0c0;
+        --scrollbar-thumb-hover: #909090;
+        --scrollbar-dark: #898989;
+        --scrollbar-thumb-dark: #5d5d5d;
+        --scrollbar-thumb-hover-dark: #3f3f3f;
+      }
+
+      body::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+        background: var(--scrollbar);
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb);
+        border-radius: 0.25rem;
+      }
+
+      @media (any-hover: hover) {
+        body::-webkit-scrollbar-thumb:hover {
+          background: var(--scrollbar-thumb-hover);
+        }
+      }
+
+      html.dark body::-webkit-scrollbar {
+        background: var(--scrollbar-dark);
+      }
+
+      html.dark body::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb-dark);
+      }
+
+      @media (any-hover: hover) {
+        html.dark body::-webkit-scrollbar-thumb:hover {
+          background: var(--scrollbar-thumb-hover-dark);
+        }
+      }
+
+      @supports not selector(::-webkit-scrollbar) {
+        html,
+        body {
+          scrollbar-color: var(--scrollbar) var(--scrollbar-thumb);
+          scrollbar-width: thin;
+        }
+
+        html.dark,
+        html.dark body {
+          scrollbar-color: var(--scrollbar-dark) var(--scrollbar-thumb-dark);
+        }
+      }
+    </style>
+
+    <slot name="stylesheet" />
+
+    <link
+      rel="preload"
+      as="font"
+      crossorigin="anonymous"
+      
+      type="font/woff2"
+    />
+
+    <script is:inline>
+      if (localStorage.getItem('dark-theme') === 'true') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+
+    <slot name="preload" />
+    <slot name="defer-script" />
+
+    <meta name="robots" content={metaRobots || 'index, follow'} />
+    {description && <meta name="description" content={description} />}
+    {description && <link href={Astro.url.href} rel="canonical" />}
+    <meta name="generator" content={Astro.generator} />
+
+    <slot name="schema" />
+
+    
+
+    <slot name="social-media" />
+  </head>
+  <body>
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
+</html>

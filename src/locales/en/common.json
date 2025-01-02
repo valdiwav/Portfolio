@@ -1,0 +1,136 @@
+{
+  "title": "Computer Engineering Graduate - Álvaro Valdivia",
+  "description": "Frontend Web Developer from Estelí, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js, and WordPress.",
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "#top"
+    },
+    {
+      "label": "Experience",
+      "href": "#work-experience"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "About Me",
+      "href": "#about-me"
+    }
+  ],
+  "hero": {
+    "job_availability": "Available for work!",
+    "title": "Hello, I'm Álvaro!",
+    "job_title": "<strong>Computer Engineering Graduate</strong> from Santiago, Chile.",
+    "description": "Developer with experience in mobile applications, artificial intelligence, and backend. Passionate about learning and creating innovative solutions.",
+    "cta": "Contact",
+    "cv": "Download my resume"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": {
+      "jobs_title": ["BELAT", "PUCV", "Chilean Air Force"],
+      "jobs_description": [
+        {
+          "title": "Internship at BELAT",
+          "time": ["Dec 2023", "Feb 2024"],
+          "description": "I managed projects using Odoo, modeled processes with BPMN to optimize workflows, and assisted in backend development integrating JavaScript, Prisma, and PostgreSQL. Additionally, I trained teams on implementing technological solutions.",
+          "list": ["Project management with Odoo", "Process modeling with BPMN", "Backend development (JavaScript, Prisma, PostgreSQL)", "Training technical and commercial teams"]
+        },
+        {
+          "title": "Data Structures Teaching Assistant",
+          "time": ["Mar 2022", "Jul 2024"],
+          "description": "As a teaching assistant, my role involved resolving students' doubts and problems, explaining concepts clearly, conducting practical exercises, evaluations, and providing feedback.",
+          "list": ["Resolving doubts", "Explaining concepts", "Correcting exercises", "Providing feedback", "C"]
+        },
+        {
+          "title": "Aircraft Electronics and Electrical Technician",
+          "time": ["Jan 2019", "Oct 2020"],
+          "description": "I diagnosed and resolved electronic failures in helicopters, ensuring their operability. I worked in a high-pressure environment, developing problem-solving, teamwork, and technical project management skills.",
+          "list": ["Electronic diagnostics and repair", "Teamwork", "Technical project management"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "PerfectRep",
+        "description": "PerfectRep is a mobile application project developed as a technological solution to analyze and correct exercise technique in real-time for hypertrophy exercises. It uses artificial intelligence and computer vision to identify incorrect movements and provide immediate feedback. The app is designed for exercises like squats, deadlifts, shoulder press, and bicep curls, allowing use in various environments from gyms to home workouts.",
+        "image": "/src/images/projects/perfectrepapp.png",
+        "techs": ["AndroidStudio", "Kotlin", "Firebase", "TensorFlow", "Python"],
+        "code": "Code",
+        "preview": "Preview",
+        "githubCode": "https://github.com/valdiwav/PerferctRep.git"
+      },
+      {
+        "title": "Educational Game in Game Maker",
+        "description": "Cyberstyle: SYNAPSE (CSS) is an educational video game designed to compare the effectiveness of two feedback systems, KCR and MTF, in learning. Focused on CSS concepts, it measured not only knowledge retention but also key dimensions like motivation, interest, and perceived usefulness, providing valuable data for educational analysis.",
+        "image": "/src/images/projects/cyberstyle.png",
+        "techs": ["CSS", "HTML", "GameMaker"],
+        "code": "Code",
+        "preview": "Preview",
+        "githubCode": "https://github.com/valdiwav/CyberStyle.git"
+      },
+      {
+        "title": "PC Forge",
+        "description": "PC Forge is an educational web platform that guides users through the process of building their own PC. Through interactive steps, users learn about components, compatibility, and assembly while saving their progress.",
+        "image": "/src/images/projects/pcforge1.png",
+        "techs": [
+          "React",
+          "Sass",
+          "TypeScript",
+          "MySQL",
+          "Rapid"
+        ],
+        "code": "Code",
+        "preview": "Preview",
+        "githubCode": "https://github.com/valdiwav/PcForgeReact.git"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "technologies": [
+      { "name": "HTML", "icon": "techs/html" },
+      { "name": "CSS", "icon": "techs/css" },
+      { "name": "JavaScript", "icon": "techs/javascript" },
+      { "name": "React", "icon": "techs/react" },
+      { "name": "Kotlin", "icon": "techs/kotlin" },
+      { "name": "Firebase", "icon": "techs/firebase" },
+      { "name": "TensorFlow", "icon": "techs/tensorflow" },
+      { "name": "Astro", "icon": "techs/astro" },
+      { "name": "MySQL", "icon": "techs/mysql" },
+      { "name": "Python", "icon": "techs/python" },
+      { "name": "Sass", "icon": "techs/sass" },
+      { "name": "Rapid", "icon": "techs/rapid" },
+      { "name": "Tailwind", "icon": "techs/tailwindcss" },
+      { "name": "AndroidStudio", "icon": "techs/androidstudio" },
+      { "name": "GameMaker", "icon": "techs/gamemaker" },
+      { "name": "PostgreSQL", "icon": "techs/postgressql" },
+      { "name": "Node.js", "icon": "techs/node.js" },
+      { "name": "Git", "icon": "techs/git" },
+      { "name": "Figma", "icon": "techs/figma" },
+      { "name": "Flutter", "icon": "techs/flutter" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Developer of Technological Solutions with Vision and Creativity",
+    "description": "I am a Computer Engineering Graduate, focused on mobile application development, artificial intelligence integration, and process optimization. My experience ranges from designing and developing technological solutions to modeling processes that improve efficiency and productivity. Always looking for new ways to face challenges and add value through technology."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "If you're interested in working with me, feel free to contact me through"
+  },
+  "footer": {
+    "developer": "ValdiDev",
+    "copy": "All rights reserved"
+  }
+}

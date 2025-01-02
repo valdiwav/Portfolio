@@ -1,0 +1,123 @@
+---
+import { Icon } from 'astro-icon/components'
+import common from '../locales/es/common.json' // Importamos los datos directamente desde common.json
+
+// Extraemos las traducciones necesarias desde common
+const contactData = common.contact || {}
+const title = contactData.title || 'Contacto'
+const subtitle = contactData.subtitle || 'Puedes encontrarme en las siguientes plataformas:'
+const normalizeTitle = title
+  .toLowerCase()
+  .replaceAll(' ', '-')
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+---
+
+<section id={normalizeTitle} class="contact">
+  <h2>{title}</h2>
+  <section class="info">
+    <div class="description">
+      <p class="headline-2">{subtitle}</p>
+    </div>
+  </section>
+
+  <!-- Bloque de redes sociales debajo del contenido -->
+  <aside class="socials">
+    <nav>
+      <a href="https://github.com/valdiwav" aria-label="GitHub" target='_blank' rel='noopener'>
+        <Icon name="github" size={50} />
+      </a>
+      <a href="https://wa.me/56976618557" aria-label="whatsapp" target='_blank' rel='noopener'>
+        <Icon name="whatsapp" size={50} />
+      </a>
+      <a href="https://www.linkedin.com/in/alvaro-valdivia-miranda-a5065b178" aria-label="LinkedIn" target='_blank' rel='noopener'>
+        <Icon name="linkedin" size={50} />
+      </a>
+      <a href="mailto:valdivialvaro.8@gmail.com" aria-label="Mail" target='_blank' rel='noopener'>
+        <Icon name="mail" size={50} />
+      </a>
+
+    </nav>
+  </aside>
+</section>
+
+<style>
+  .contact {
+    padding-bottom: 120px;
+
+    & h2 {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      margin-bottom: 48px;
+
+      @media (width >= 768px) {
+        justify-content: start;
+
+        &::before,
+        &::after {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 1px;
+          background-color: var(--border-color);
+        }
+      }
+    }
+
+    & .info {
+      padding: 24px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+      margin-top: 48px;
+
+      @media (width >= 768px) {
+        padding: 48px;
+        max-width: 470px;
+        margin-inline: auto;
+      }
+
+      @media (width >= 1200px) {
+        flex-direction: row;
+        max-width: fit-content;
+      }
+
+      & p {
+        font-size: 1.25rem;
+        color: var(--text-color);
+
+        @media (width >= 768px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  /* Redes sociales debajo del contenido */
+  .socials {
+    display: flex;
+    justify-content: center; /* Centra los iconos */
+    gap: 16px; /* Espaciado entre los iconos */
+    margin-top: 32px; /* Espaciado superior */
+
+    & nav {
+      display: flex;
+      gap: 16px;
+      flex-direction: row; /* Asegura que los iconos estén en una fila */
+    }
+
+    & a {
+      color: var(--color-text);
+      text-decoration: none;
+      transition: var(--transition-text);
+
+      &:hover {
+        color: var(--text-description-color);
+      }
+    }
+  }
+</style>
