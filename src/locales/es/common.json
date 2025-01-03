@@ -1,6 +1,6 @@
 {
   "title": "Ingeniero de Ejecución Informática - Álvaro Valdivia",
-  "description": "Desarrollador con experiencia en aplicaciones móviles, inteligencia artificial y backend. Apasionado por aprender y crear soluciones innovadoras.",
+  "description": "Desarrollador web y móvil. De Santiago, Chile. Especializado en crear aplicaciones únicas",
   "navbar": [
     {
       "label": "Inicio",
@@ -21,13 +21,17 @@
     {
       "label": "Sobre mí",
       "href": "#sobre-mi"
+    },
+    {
+      "label": "Contacto",
+      "href": "#contacto"
     }
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
     "title": "¡Hola, soy Álvaro!",
-    "job_title": "<strong>Ingeniero de Ejecución Informática</strong> de Santiago, Chile.",
-    "description": "Desarrollador con experiencia en aplicaciones móviles, inteligencia artificial y backend. Apasionado por aprender y crear soluciones innovadoras.",
+    "job_title": "<strong>Ingeniero de Ejecución Informática</strong>",
+    "description": "Desarrollador con experiencia en aplicaciones móviles, inteligencia artificial y backend.",
     "cta": "Contacto",
     "cv": "Descarga mi CV"
   },
@@ -46,7 +50,7 @@
           "title": "Ayudante de Estructura de Datos",
           "time": ["Mar 2022", "jul 2024"],
           "description": "Como ayudante de la asignatura, mi labor consistía en la resolución de dudas y problemas por parte de los estudiantes, a través de la explicación clara de conceptos, la realización de ejercicios prácticos, las evaluaciones y su retroalimentación.",
-          "list": ["Resolución de dudas", "Explicación de conceptos", "Corrección de ejercicios", "Retroalimentación", "C"]
+          "list": ["Resolución de dudas", "Explicación de conceptos", "Corrección de ejercicios", "Retroalimentación", "Lenguaje C"]
         },
         {
           "title": "Técnico de Electricidad y Electrónica de Aeronaves",
@@ -125,7 +129,11 @@
   "about": {
     "title": "Sobre mí",
     "subtitle": "Desarrollador de Soluciones Tecnológicas con Visión y Creatividad",
-    "description": "Soy Ingeniero en Ejecución Informática, con un enfoque en el desarrollo de aplicaciones móviles, integración de inteligencia artificial y optimización de procesos. Mi experiencia abarca desde el diseño y desarrollo de soluciones tecnológicas hasta el modelado de procesos que mejoran la eficiencia y productividad. Siempre en busca de nuevas formas de enfrentar desafíos y aportar valor a través de la tecnología."
+    "description": [
+      "Te cuento un poco sobre mí. Estudie electrónica aeronáutica y tras años ejerciendo, decidí dar un giro hacia la programación. Desde entonces, disfruto creando aplicaciones que combinan tecnología y creatividad para resolver problemas reales.",
+      "Dentro de mis éxitos destaco que, gracias a mi experiencia en la Fuerza Aérea, me gusta enfrentar desafíos y trabajar en equipo para lograr objetivos comunes. Disfruto colaborar con otros y compartir mis conocimientos con ellos.",
+      "Cuento con experiencia desarrollando aplicaciones móviles y creé 'PerfectRep', un proyecto que mezcla mis dos pasiones: la programación y el entrenamiento físico, Ayudando a las personas durante su entrenamiento."
+    ]
   },
   "contact": {
     "title": "Contacto",

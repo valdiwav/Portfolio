@@ -28,8 +28,9 @@ const normalizeTitle = title
       />
     </div>
     <div class="description">
-      <h3 class="headline-2">{subtitle}</h3>
-      <p>{description}</p>
+      {description.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
     </div>
   </section>
 </section>
