@@ -77,7 +77,7 @@
         "title": "LnKut (Url Shortener)",
         "description": "LnKut es un acortador de enlaces en desarrollo, diseñado para ofrecer una solución completa de simplificación y personalización de URLs. Construido sobre una base de datos SQL utilizando PostgreSQL y Prisma, permite a los usuarios acortar enlaces, compartirlos y descargarlos como códigos QR. Además, incluye registro y acceso de usuarios para gestionar sus URLs de forma segura. Actualmente, se trabaja en la implementación de opciones avanzadas, como la personalización de enlaces mediante alias y dominios personalizados.",
         "image": "/src/images/projects/lnkut.png",
-        "techs": ["Next.js", "PostgreSQL", "Prisma", "Tailwind", "React", "Node.js"],
+        "techs": ["Node.js", "PostgreSQL", "Next.js", "Prisma", "TailwindCSS", "React"],
         "code": "Código",
         "preview": "Vista previa",
         "githubCode": "https://github.com/valdiwav/url-shortener.git"

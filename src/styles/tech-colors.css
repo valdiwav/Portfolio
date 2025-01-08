@@ -71,13 +71,15 @@ html {
     transition: var(--transition-bg), var(--transition-text);
   }
 
-  .androidstudio {
+  .androidstudio,
+  .node\.js {
     background-color: #2a7c5f; /* Verde bosque para Android Studio */
     color: #fff; /* Texto en blanco */
     transition: var(--transition-bg), var(--transition-text);
   }
 
-  .gamemaker{
+  .gamemaker,
+  .next\.js{
     background-color: #c4c4c4;
     color: #000;
     transition: var(--transition-bg), var(--transition-text);
@@ -95,6 +97,21 @@ html {
     color: #ffffff; /* Color claro para el texto */
     transition: var(--transition-bg), var(--transition-text);
   }
+  
+  .postgresql {
+    background-color: #336791; /* Azul característico de PostgreSQL */
+    color: #ffffff; /* Texto blanco */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+  
+  .prisma {
+    background-color: #04121a; /* Azul oscuro característico de Prisma */
+    color: #ffffff; /* Texto blanco */
+    transition: var(--transition-bg), var(--transition-text);
+  }
+  
+  
+  
 
 }
 
