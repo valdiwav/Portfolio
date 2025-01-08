@@ -74,6 +74,15 @@
         "githubCode": "https://github.com/valdiwav/PerferctRep.git"
       },
       {
+        "title": "LnKut (Url Shortener)",
+        "description": "LnKut es un acortador de enlaces en desarrollo, diseñado para ofrecer una solución completa de simplificación y personalización de URLs. Construido sobre una base de datos SQL utilizando PostgreSQL y Prisma, permite a los usuarios acortar enlaces, compartirlos y descargarlos como códigos QR. Además, incluye registro y acceso de usuarios para gestionar sus URLs de forma segura. Actualmente, se trabaja en la implementación de opciones avanzadas, como la personalización de enlaces mediante alias y dominios personalizados.",
+        "image": "/src/images/projects/lnkut.png",
+        "techs": ["Next.js", "PostgreSQL", "Prisma", "Tailwind", "React", "Node.js"],
+        "code": "Código",
+        "preview": "Vista previa",
+        "githubCode": "https://github.com/valdiwav/url-shortener.git"
+      },
+      {
         "title": "Juego Educativo en Game Maker",
         "description": "Cyberstyle: SYNAPSE (CSS) es un videojuego educativo diseñado para comparar la eficacia de dos sistemas de retroalimentación, KCR y MTF, en el aprendizaje. Enfocado en conceptos de CSS, permitió medir no solo la retención del conocimiento, sino también dimensiones clave como motivación, interés y percepción de utilidad, ofreciendo datos valiosos para el análisis educativo.",
         "image": "/src/images/projects/cyberstyle.png",
@@ -117,11 +126,12 @@
       { "name": "Tailwind", "icon": "techs/tailwindcss" },
       { "name": "AndroidStudio", "icon": "techs/androidstudio" },
       { "name": "GameMaker", "icon": "techs/gamemaker" },
-      { "name": "PostgreSQL", "icon": "techs/postgressql" },
+      { "name": "PostgreSQL", "icon": "techs/postgresql" },
       { "name": "Node.js", "icon": "techs/node.js" },
       { "name": "Git", "icon": "techs/git" },
       { "name": "Figma", "icon": "techs/figma" },
-      { "name": "Flutter", "icon": "techs/flutter" }
+      { "name": "Flutter", "icon": "techs/flutter" },
+      { "name": "Prisma", "icon": "techs/prisma" }
     ]
   },
 
