@@ -71,6 +71,7 @@
         "techs": ["AndroidStudio", "Kotlin", "Firebase", "TensorFlow","Python"],
         "code": "Código",
         "preview": "Vista previa",
+        "previewLink": "",
         "githubCode": "https://github.com/valdiwav/PerferctRep.git"
       },
       {
@@ -80,6 +81,7 @@
         "techs": ["Node.js", "PostgreSQL", "Next.js", "Prisma", "TailwindCSS", "React"],
         "code": "Código",
         "preview": "Vista previa",
+        "previewLink": "https://lnkut.vercel.app",
         "githubCode": "https://github.com/valdiwav/url-shortener.git"
       },
       {
@@ -89,6 +91,7 @@
         "techs": ["CSS", "HTML", "GameMaker"],
         "code": "Código",
         "preview": "Vista previa",
+        "previewLink": "",
         "githubCode": "https://github.com/valdiwav/CyberStyle.git"
       },
       {
@@ -104,6 +107,7 @@
         ],
         "code": "Código",
         "preview": "Vista previa",
+        "previewLink": "",
         "githubCode": "https://github.com/valdiwav/PcForgeReact.git"
       }
     ]

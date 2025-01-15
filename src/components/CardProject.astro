@@ -12,10 +12,11 @@ interface Props {
   techs: string[]
   code: string
   preview: string,
-  githubCode: string
+  githubCode: string,
+  previewLink: string
 }
 
-const { src, alt, title, description, techs, code, githubCode } = Astro.props
+const { src, alt, title, description, techs, code, githubCode, preview, previewLink } = Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
@@ -63,15 +64,26 @@ if (!images[src])
         <Icon name="github" size={24} />
         {code}
       </a>
-      <!--<a href="#">
-        <Icon name="link" size={24} />
-        {preview}
-      </a>-->
+      {previewLink.toLowerCase() !== "" && (
+        <a href={previewLink}
+          target="_blank"
+          rel="noopener"
+          class="preview-link">
+          <Icon name="link" size={24} />
+          {preview}
+        </a>
+      )}
     </div>
+    
   </div>
 </section>
 
 <style>
+
+.preview-link:empty {
+  display: none;
+}
+
   .card-project {
     display: grid;
     align-items: center;

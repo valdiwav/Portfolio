@@ -13,7 +13,7 @@ const projects = projectsData.projects || []
     <span>{title}</span>
   </h2>
   {
-    projects.map(({ title, description, image, techs, code, preview, githubCode }) => (
+    projects.map(({ title, description, image, techs, code, preview, githubCode, previewLink }) => (
       <CardProject
         src={image}
         alt={title}
@@ -23,6 +23,7 @@ const projects = projectsData.projects || []
         code={code}
         preview={preview}
         githubCode={githubCode}
+        previewLink={previewLink}
       />
     ))
   }
