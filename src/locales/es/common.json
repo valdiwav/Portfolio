@@ -71,7 +71,7 @@
         "techs": ["AndroidStudio", "Kotlin", "Firebase", "TensorFlow","Python"],
         "code": "Código",
         "preview": "Vista previa",
-        "previewLink": "",
+        "previewLink": "https://perfectrep.vercel.app",
         "githubCode": "https://github.com/valdiwav/PerferctRep.git"
       },
       {
