@@ -1,6 +1,6 @@
 {
-  "title": "Ingeniero de Ejecución Informática - Álvaro Valdivia",
-  "description": "Desarrollador web y móvil. De Santiago, Chile. Especializado en crear aplicaciones únicas",
+  "title": "Ingeniero en Informática - Álvaro Valdivia",
+  "description": "Analista de Implementación II y Desarrollador Web. De Santiago, Chile. Especializado en crear soluciones tecnológicas innovadoras.",
   "navbar": [
     {
       "label": "Inicio",
@@ -30,16 +30,22 @@
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
     "title": "¡Hola, soy Álvaro!",
-    "job_title": "<strong>Ingeniero de Ejecución Informática</strong>",
-    "description": "Desarrollador web y móvil. De Santiago, Chile. Especializado en crear aplicaciones únicas.",
+    "job_title": "<strong>Analista de Implementación de Software | Ingeniero Informático | Desarrollador Web </strong>",
+    "description": "Analista de Implementación II y Desarrollador Web. De Santiago, Chile. Especializado en crear aplicaciones únicas.",
     "cta": "Contacto",
     "cv": "Descarga mi CV"
   },
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["BELAT", "PUCV", "Fuerza Aérea de Chile"],
+      "jobs_title": ["ADP","BELAT", "PUCV", "Fuerza Aérea de Chile"],
       "jobs_description": [
+        {
+          "title": "Analista de Implementación de Software II",
+          "time": ["Abr 2025", "Presente"],
+          "description": "Participo en la implementación de software de nómina para clientes de ADP, asegurando configuraciones adecuadas y cumplimiento de requisitos. Trabajo con bases de datos SQL y parametrización de sistemas.",
+          "list": ["Implementación de software", "Configuración y parametrización", "Trabajo con SQL", "Cumplimiento de estándares de calidad"]
+        },
         {
           "title": "Práctica Profesional en BELAT",
           "time": ["Dic 2023", "Feb 2024"],
@@ -135,7 +141,8 @@
       { "name": "Git", "icon": "techs/git" },
       { "name": "Figma", "icon": "techs/figma" },
       { "name": "Flutter", "icon": "techs/flutter" },
-      { "name": "Prisma", "icon": "techs/prisma" }
+      { "name": "Prisma", "icon": "techs/prisma" },
+      { "name": "SQLServer", "icon": "techs/sqlserver" }
     ]
   },
 
@@ -144,9 +151,9 @@
     "title": "Sobre mí",
     "subtitle": "Desarrollador de Soluciones Tecnológicas con Visión y Creatividad",
     "description": [
-      "Te cuento un poco sobre mí. Estudie electrónica aeronáutica y tras años ejerciendo, decidí dar un giro hacia la programación. Desde entonces, disfruto creando aplicaciones que combinan tecnología y creatividad para resolver problemas reales.",
-      "Dentro de mis éxitos destaco que, gracias a mi experiencia en la Fuerza Aérea, me gusta enfrentar desafíos y trabajar en equipo para lograr objetivos comunes. Disfruto colaborar con otros y compartir mis conocimientos con ellos.",
-      "Cuento con experiencia desarrollando aplicaciones móviles y creé 'PerfectRep', un proyecto que mezcla mis dos pasiones: la programación y el entrenamiento físico, Ayudando a las personas durante su entrenamiento."
+      "Te cuento un poco sobre mí. Estudié electrónica aeronáutica y, tras años ejerciendo, decidí dar un giro hacia la programación. Desde entonces, he desarrollado aplicaciones web y móviles, además de la implementación de software.",
+      "Gracias a mi experiencia en la Fuerza Aérea y en proyectos de desarrollo, me gusta enfrentar desafíos y trabajar en equipo para lograr objetivos comunes. Disfruto colaborar con otros y compartir mis conocimientos.",
+      "Actualmente trabajo como Analista de Implementación de Software en ADP, donde configuro y optimizo sistemas de nómina para distintos clientes. Además, creé 'PerfectRep', un proyecto que combina mis dos pasiones: la programación y el entrenamiento físico, ayudando a las personas a mejorar su técnica en el ejercicio."
     ]
   },
   "contact": {
