@@ -135,12 +135,10 @@
       { "name": "Rapid", "icon": "techs/rapid" },
       { "name": "Tailwind", "icon": "techs/tailwindcss" },
       { "name": "AndroidStudio", "icon": "techs/androidstudio" },
-      { "name": "GameMaker", "icon": "techs/gamemaker" },
       { "name": "PostgreSQL", "icon": "techs/postgresql" },
       { "name": "Node.js", "icon": "techs/node.js" },
       { "name": "Git", "icon": "techs/git" },
       { "name": "Figma", "icon": "techs/figma" },
-      { "name": "Flutter", "icon": "techs/flutter" },
       { "name": "Prisma", "icon": "techs/prisma" },
       { "name": "SQLServer", "icon": "techs/sqlserver" }
     ]
